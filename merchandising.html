@@ -36,8 +36,16 @@
 
 
     <!--Header-->
+    <input type="checkbox" name="menu" id="menu">
     <header>
         <a class="logo" href="index.html"><img src="img/logo.svg" alt=""></a>
+        <label class="menu-button" for="menu">
+            <svg class="menu-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                <rect x="2" y="5" width="20" height="2"/>
+                <rect x="2" y="11" width="20" height="2"/>
+                <rect x="2" y="17" width="20" height="2"/>
+            </svg>
+        </label>
         <div class="topnav">
             <a href="services.html">Services</a>
             <a href="suite.html">Suite</a>
@@ -57,15 +65,65 @@
             </div>
         </section>
         <!--End Banner-->
-        <!--Services-->
-        <section id="cards">
-            <div class="cards">
-                <h3>The Top Edge Suite</h3>
-                <h3>Coming Soon</h3>
-                <h6>Applications that simplify your business.</h6>
+        <!--Design-->
+        <section id="about">
+            <div class="content">
+                <div class="carousel-img" id="carousel-shirtdesign">
                 </div>
-            </section>
-        <!--Services-->
+                <div class="carousel">
+                    <h3>DESIGN</h3>
+                    <input type="radio" name="mission" id="mission" checked />
+                    <input type="radio" name="mission" id="vision" />
+                    
+                    <div class="carousel-content">
+                        <div class="carousel-item" id="mission-item">
+                                Get your merchandise designed by one of our experienced designers.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Design-->
+
+        <!--Print-->
+        <section id="services">
+            <div class="services">
+                    <div class="sponsorship-item">
+                        <div class="card-item-icon">
+                            <img src="img/print.png" alt="" class="card-icon"/>
+                        </div>
+                    </div>
+                <h5>PRINT</h5>
+                <div class="development-content">
+                    <p>After the design has been made production will begin on your merchandise.</p>
+                </div>
+            </div>
+    </section>
+    <!--End Print-->
+
+    <!--Distribute-->
+    <section id="structure">
+        <div class="content">
+                <div class="structure">
+                        <h3>DISTRIBUTE</h3>
+                        <div class="structure-content">
+                           <p>We will distribute your merchandise on your own shop.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-img" id="carousel-shirtdistribute">
+            </div>
+        </div>
+    </section>
+    <!--End Distribute-->
+
+ <!--Contact Us-->
+ <section id="services">
+    <div class="services">
+        <div class="merchandising-item-column">
+            <a href="mailto:energyisaboss@gmail.com" class="button-two">Contact Us</a>
+        </div>
+</section>
+<!--Contact Us End-->
         
     </main>
         <footer>
