@@ -1,0 +1,22 @@
+{
+  "name": "topedgesite",
+  "version": "1.0.0",
+  "description": "\"# topedge\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energyisaboss/topedge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/energyisaboss/topedge/issues"
+  },
+  "homepage": "https://github.com/energyisaboss/topedge#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
