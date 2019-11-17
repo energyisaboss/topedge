@@ -335,6 +335,22 @@ p, .carousel-item{
     background-image: url("img/organization.png");
 }
 
+#carousel-cuttingedgeinfo{
+    background-image: url("img/Shield_Cutting_edge.png");
+}
+
+#carousel-b3wareinfo{
+    background-image: url("img/Shield_b3ware.png");
+}
+
+#carousel-rampageinfo{
+    background-image: url("img/shield_rampage.png");
+}
+
+#carousel-dozeinfo{
+    background-image: url("img/Shield_doze.png");
+}
+
 .carousel {
     width: 50%;
     height: 640px;
@@ -453,6 +469,14 @@ input#vision:checked ~ .carousel-content > .carousel-item#vision-item {
 
 .services-item-column > p{
     margin:5px 0 20px;
+}
+
+.teams-item{
+    width: 25%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    margin:0 0 20px;
 }
 
 footer {
